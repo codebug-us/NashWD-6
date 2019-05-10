@@ -1,5 +1,8 @@
 $(document).ready(function(){
   // Your javascript goes here
+  ///////////////////////////////////
+  //////////// Rockets! /////////////
+  ///////////////////////////////////
   var rocket = {
   	color: "white",
   	maker: "SpaceX",
@@ -9,6 +12,14 @@ $(document).ready(function(){
   	hasTires: false
   };
 
+
+
+
+////////////////////////////////////
+
+/////////////////////////////////////
+////////// Shoes in Stock! /////////
+///////////////////////////////////
   var shoesInStock = {
   	nike: 100,
   	adidas: 48, 
@@ -18,6 +29,13 @@ $(document).ready(function(){
   	gucci: 2077
   };
 
+
+
+  //////////////////////////////////////
+
+  /////////////////////////////////////
+  //////////////// Vandy /////////////
+  ///////////////////////////////////
   var vanderbilt = {
   	founded: 1873, 
   	location: "Nashville", 
@@ -28,6 +46,15 @@ $(document).ready(function(){
   	bestStudentEver: "McArthur Gill"
   };
 
+
+
+
+  //////////////////////////////////////
+
+
+  /////////////////////////////////////
+  //////////////// Pats //////////////
+  ///////////////////////////////////
   var patriots = {
   	headCoach: "bill_belichick",
   	location: "new_england",
@@ -37,6 +64,15 @@ $(document).ready(function(){
   	backupQB: "jarrett_stidham"
   };
 
+
+
+
+
+  //////////////////////////////////////
+
+  /////////////////////////////////////
+  //////////////// Barb //////////////
+  ///////////////////////////////////
   var barb = {
 	  name: "Barbara Smith",
 	  age: 32,
@@ -46,5 +82,8 @@ $(document).ready(function(){
 	    alert('Hi! I\'m ' + this.name + '.');
 	  }
 	};
+
+
+  //////////////////////////////////////
 	  
 });
