@@ -44,9 +44,7 @@ We're going to use the return value of `Object.keys(car)` to loop through our ob
 1. Loop through the array of `shoeKeys` and calculate the total number of shoes you have in stock. *Hint* You may need a variable to store the total count.`console.log` the total number of shoes in stock.
 
 
-### Vandy
-
-1. Create a variable called `vandyKeys` and save all of our `vanderbilt` object's keys. 
+### Vandy 
 1. Loop through the array of `vandyKeys` and change each value that is a `number` in our `vanderbilt` object to a string. For instance, when you run `console.log(vanderbilt.founded)` should print `"1873"`, not `1873`. 
 
 
