@@ -65,10 +65,11 @@ The backupQB is Jarrett Stidham
 
 ### Barb!
 
-1. Add a property that is a function called `bio` to our gal `barb`. When you call `barb.bio()` it should alert "Hi, I'm {name} and I'm {age} years old!"
-
+1. Add a property that is a function called `bio` to our gal `barb`. It should `console.log` "Hi, I'm {name} and I'm {age} years old!"
 	**Note** Your bio should be dynamic, so if our gal Barb decides to change her name to Amanda or next year when she turns 33, you shouldn't have to update her `bio` function. It should just work! 
-
+1. Invoke `barb.bio()`
+1. Below your `barb.bio()`, use object assignment to change barb's name to "Allison" and change her age to 32.5.
+1. Invoke `barb.bio()`. Did your new `console.log` change properly with barb's information?
 1. Next let's `console.log` "Barb's favorite things to do on the weekend are: {interests[0]}, {interests[1]}, ...". Your code should be able to handle adding/removing interests from her list of interests. 
 
 
