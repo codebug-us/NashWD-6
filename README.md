@@ -41,7 +41,7 @@ We're going to use the return value of `Object.keys(car)` to loop through our ob
 
 1. Create a variable called `shoeKeys` and save all of our `shoesInStock` object's keys. 
 1. Loop through the array of `shoeKeys` and `console.log` "We have {value} {brand} shoes in stock!" for each key-value pair. Example: "We have 100 Nike shoes in stock!". 
-1. Loop through the array of `shoeKeys` and calculate the total number of shoes you have in stock. *Hint* You may need a variable to store the total count. 
+1. Loop through the array of `shoeKeys` and calculate the total number of shoes you have in stock. *Hint* You may need a variable to store the total count.`console.log` the total number of shoes in stock.
 
 
 ### Vandy
