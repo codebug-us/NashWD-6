@@ -12,6 +12,10 @@ $(document).ready(function(){
   	hasTires: false
   };
 
+  var rocketKeys = Object.keys(rocket);
+  for(var i=0;i<rocketKeys.length;i++){
+    console.log(rocket[rocketKeys[i]]);
+  }
 
 
 
@@ -28,6 +32,15 @@ $(document).ready(function(){
   	prada: 4, 
   	gucci: 2077
   };
+  var shoeKeys = Object.keys(shoesInStock);
+  for(var i=0;i<shoeKeys.length;i++){
+    console.log("We have "+ shoesInStock[shoeKeys[i]]+" "+shoeKeys[i]+ " shoes in stock!");
+  }
+  var shoeCount=0;
+  for(i=0;i<shoeKeys.length;i++){
+    shoeCount=shoeCount+shoesInStock[shoeKeys[i]];
+  }
+  console.log(shoeCount);
 
 
 
@@ -45,6 +58,20 @@ $(document).ready(function(){
   	chancellor: "Nicholas Zeppos",
   	bestStudentEver: "McArthur Gill"
   };
+
+  //change nums to strings
+  var vandyKeys=Object.keys(vanderbilt);
+  for(i=0;i<vandyKeys.length;i++){
+    if(true!=isNaN(vanderbilt[vandyKeys[i]])){
+      //convert to num
+      // vanderbilt[vandyKeys[i]]=parseInt(vanderbilt[vandyKeys[i]]);
+       vanderbilt[vandyKeys[i]]=vanderbilt[vandyKeys[i]].toString();
+    }
+  }
+  console.log(vanderbilt.founded);
+  console.log(vanderbilt.location);
+  console.log(vanderbilt.endowment);
+
 
 
 
