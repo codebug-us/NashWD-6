@@ -70,7 +70,7 @@ The backupQB is Jarrett Stidham
 1. Invoke `barb.bio()`
 1. Below your `barb.bio()`, use object assignment to change barb's name to "Allison" and change her age to 32.5.
 1. Invoke `barb.bio()`. Did your new `console.log` change properly with barb's information?
-1. Next let's `console.log` "Barb's favorite things to do on the weekend are: {interests[0]}, {interests[1]}, ...". Your code should be able to handle adding/removing interests from her list of interests. **Hint** you may want to make use of the javascript `join()` function!
+1. Next let's `console.log` "Barbara's favorite things to do on the weekend are: {interests[0]}, {interests[1]}, ...". Your code should be able to handle adding/removing interests from her list of interests. **Hint** you may want to make use of the javascript `join()` function!
 
 
 
