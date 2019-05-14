@@ -90,6 +90,16 @@ $(document).ready(function(){
   	runningBack: "sony_michel",
   	backupQB: "jarrett_stidham"
   };
+  var patriotKeys=Object.keys(patriots);
+  var firstPart;
+  var secondPart;
+  for(i=0;i<patriotKeys.length;i++){
+    firstPart=patriots[patriotKeys[i]].substring(0,(patriots[patriotKeys[i]].indexOf("_")));
+    secondPart=patriots[patriotKeys[i]].substring(patriots[patriotKeys[i]].indexOf("_")+1);
+    firstPart=(firstPart.charAt(0).toUpperCase())+(firstPart.substring(1));
+    secondPart=(secondPart.charAt(0).toUpperCase())+(secondPart.substring(1));
+    console.log("The "+ patriotKeys[i]+ " is "+firstPart+" "+secondPart);
+  }
 
 
 
@@ -107,9 +117,17 @@ $(document).ready(function(){
 	  interests: ['music', 'skiing', 'Peloton'],
 	  greeting: function() {
 	    alert('Hi! I\'m ' + this.name + '.');
-	  }
+	  },
+    bio:function(){
+      console.log("Hi, I'm "+this.name+" and I'm "+this.age+ " years old.");
+      console.log(this.name+"\'s favorite things to do on the weekend are: "+ this.interests.join(", "));
+    }
 	};
 
+  barb.bio();
+  barb.age=32.5;
+  barb.name="Allison";
+  barb.bio();
 
   //////////////////////////////////////
 	  
